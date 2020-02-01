@@ -1,0 +1,47 @@
+[
+    {
+        "boundingPoly": {
+            "vertices": [
+                {
+                    "x": 388,
+                    "y": 113
+                },
+                {
+                    "x": 452,
+                    "y": 177
+                }
+            ]
+        },
+        "description": "Circle"
+    },
+    {
+        "boundingPoly": {
+            "vertices": [
+                {
+                    "x": 60,
+                    "y": 67
+                },
+                {
+                    "x": 151,
+                    "y": 161
+                }
+            ]
+        },
+        "description": "Rectangle"
+    },
+    {
+        "boundingPoly": {
+            "vertices": [
+                {
+                    "x": 4,
+                    "y": 487
+                },
+                {
+                    "x": 993,
+                    "y": 546
+                }
+            ]
+        },
+        "description": "Rectangle"
+    }
+]
