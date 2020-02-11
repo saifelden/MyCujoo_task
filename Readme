@@ -1,11 +1,11 @@
 Hello,
 
-First I would like to thank you for sending this test, I enjoyed doing it, In the following is requirment to run this code:
-- c++
-- QT Creator
--  QT5 <
+- To run this code you need the following:
+	1- if you don't have c++ installed, install c++ using :sudo apt-get install build-essential
+	2- if you don't have opencv installed please follow this link to install opencv : https://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
+- In order to run the code you can do the following:
+	1- clone this repo
+	2- compile the file using : g++ find_shapes.cpp -o out `pkg-config --libs --cflags opencv`
+    3- ./out <path/to/the/image>.png
 
-after running the code using the upload button upload the image and then press the other button to extract the shapes and write json file.
-Note:the path that it will create the output.json inside is defined in line 150 in mainwindows.cpp please make sure to change to a path in your machine and make sure that this path already has an empy file with name output.json.
 
-Please let me know if you found any problem during running this code.
