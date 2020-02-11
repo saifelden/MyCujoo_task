@@ -4,8 +4,8 @@ Hello,
 	1- if you don't have c++ installed, install c++ using :sudo apt-get install build-essential
 	2- if you don't have opencv installed please follow this link to install opencv : https://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
 - In order to run the code you can do the following:
-	1- clone this repo
+	1- clone this repo and write in terminal : cd MyCujoo_task
 	2- compile the file using : g++ find_shapes.cpp -o out `pkg-config --libs --cflags opencv`
-    3- ./out <path/to/the/image>.png
+        3- run the following command: ./out <path/to/the/image>.png
 
 
